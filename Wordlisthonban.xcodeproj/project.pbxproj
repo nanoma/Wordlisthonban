@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D20F4DE1C8B292C006D52E9 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F4DD1C8B292C006D52E9 /* ListTableViewController.swift */; };
+		4D20F4E11C8B294B006D52E9 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20F4DF1C8B294B006D52E9 /* ListTableViewCell.swift */; };
+		4D20F4E21C8B294B006D52E9 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D20F4E01C8B294B006D52E9 /* ListTableViewCell.xib */; };
 		4DFB43701C70CABC00D5F725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB436F1C70CABC00D5F725 /* AppDelegate.swift */; };
 		4DFB43721C70CABC00D5F725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB43711C70CABC00D5F725 /* ViewController.swift */; };
 		4DFB43751C70CABC00D5F725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFB43731C70CABC00D5F725 /* Main.storyboard */; };
@@ -14,6 +17,15 @@
 		4DFB437A1C70CABC00D5F725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFB43781C70CABC00D5F725 /* LaunchScreen.storyboard */; };
 		4DFB43851C70CABC00D5F725 /* WordlisthonbanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB43841C70CABC00D5F725 /* WordlisthonbanTests.swift */; };
 		4DFB43901C70CABC00D5F725 /* WordlisthonbanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB438F1C70CABC00D5F725 /* WordlisthonbanUITests.swift */; };
+		4DFB43A51C70CAE200D5F725 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFB439F1C70CAE200D5F725 /* Default-568h@2x.png */; };
+		4DFB43A61C70CAE200D5F725 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFB43A01C70CAE200D5F725 /* Default-667h@2x.png */; };
+		4DFB43A71C70CAE200D5F725 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFB43A11C70CAE200D5F725 /* Default-736h@3x.png */; };
+		4DFB43A81C70CAE200D5F725 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFB43A21C70CAE200D5F725 /* fin.png */; };
+		4DFB43A91C70CAE200D5F725 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFB43A31C70CAE200D5F725 /* title_logo.png */; };
+		4DFB43AA1C70CAE200D5F725 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFB43A41C70CAE200D5F725 /* word_blank.png */; };
+		4DFB43AC1C70CF6800D5F725 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB43AB1C70CF6800D5F725 /* QuestionViewController.swift */; };
+		4DFB43B01C70CF9000D5F725 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB43AF1C70CF9000D5F725 /* FinishViewController.swift */; };
+		4DFB43B61C70CFC700D5F725 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB43B51C70CFC700D5F725 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D20F4DD1C8B292C006D52E9 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		4D20F4DF1C8B294B006D52E9 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		4D20F4E01C8B294B006D52E9 /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 		4DFB436C1C70CABC00D5F725 /* Wordlisthonban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordlisthonban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFB436F1C70CABC00D5F725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DFB43711C70CABC00D5F725 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,15 @@
 		4DFB438B1C70CABC00D5F725 /* WordlisthonbanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordlisthonbanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFB438F1C70CABC00D5F725 /* WordlisthonbanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordlisthonbanUITests.swift; sourceTree = "<group>"; };
 		4DFB43911C70CABC00D5F725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFB439F1C70CAE200D5F725 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4DFB43A01C70CAE200D5F725 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		4DFB43A11C70CAE200D5F725 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		4DFB43A21C70CAE200D5F725 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		4DFB43A31C70CAE200D5F725 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		4DFB43A41C70CAE200D5F725 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		4DFB43AB1C70CF6800D5F725 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		4DFB43AF1C70CF9000D5F725 /* FinishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		4DFB43B51C70CFC700D5F725 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +121,19 @@
 		4DFB436E1C70CABC00D5F725 /* Wordlisthonban */ = {
 			isa = PBXGroup;
 			children = (
+				4DFB439D1C70CAE200D5F725 /* WordList素材 */,
 				4DFB436F1C70CABC00D5F725 /* AppDelegate.swift */,
 				4DFB43711C70CABC00D5F725 /* ViewController.swift */,
 				4DFB43731C70CABC00D5F725 /* Main.storyboard */,
 				4DFB43761C70CABC00D5F725 /* Assets.xcassets */,
 				4DFB43781C70CABC00D5F725 /* LaunchScreen.storyboard */,
 				4DFB437B1C70CABC00D5F725 /* Info.plist */,
+				4DFB43AB1C70CF6800D5F725 /* QuestionViewController.swift */,
+				4DFB43AF1C70CF9000D5F725 /* FinishViewController.swift */,
+				4DFB43B51C70CFC700D5F725 /* AddViewController.swift */,
+				4D20F4DD1C8B292C006D52E9 /* ListTableViewController.swift */,
+				4D20F4DF1C8B294B006D52E9 /* ListTableViewCell.swift */,
+				4D20F4E01C8B294B006D52E9 /* ListTableViewCell.xib */,
 			);
 			path = Wordlisthonban;
 			sourceTree = "<group>";
@@ -123,6 +154,27 @@
 				4DFB43911C70CABC00D5F725 /* Info.plist */,
 			);
 			path = WordlisthonbanUITests;
+			sourceTree = "<group>";
+		};
+		4DFB439D1C70CAE200D5F725 /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				4DFB439E1C70CAE200D5F725 /* Defaults */,
+				4DFB43A21C70CAE200D5F725 /* fin.png */,
+				4DFB43A31C70CAE200D5F725 /* title_logo.png */,
+				4DFB43A41C70CAE200D5F725 /* word_blank.png */,
+			);
+			path = "WordList素材";
+			sourceTree = "<group>";
+		};
+		4DFB439E1C70CAE200D5F725 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				4DFB439F1C70CAE200D5F725 /* Default-568h@2x.png */,
+				4DFB43A01C70CAE200D5F725 /* Default-667h@2x.png */,
+				4DFB43A11C70CAE200D5F725 /* Default-736h@3x.png */,
+			);
+			path = Defaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +282,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DFB437A1C70CABC00D5F725 /* LaunchScreen.storyboard in Resources */,
+				4DFB43A81C70CAE200D5F725 /* fin.png in Resources */,
+				4DFB43A51C70CAE200D5F725 /* Default-568h@2x.png in Resources */,
+				4DFB43A91C70CAE200D5F725 /* title_logo.png in Resources */,
 				4DFB43771C70CABC00D5F725 /* Assets.xcassets in Resources */,
+				4DFB43AA1C70CAE200D5F725 /* word_blank.png in Resources */,
 				4DFB43751C70CABC00D5F725 /* Main.storyboard in Resources */,
+				4DFB43A61C70CAE200D5F725 /* Default-667h@2x.png in Resources */,
+				4DFB43A71C70CAE200D5F725 /* Default-736h@3x.png in Resources */,
+				4D20F4E21C8B294B006D52E9 /* ListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +315,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D20F4E11C8B294B006D52E9 /* ListTableViewCell.swift in Sources */,
 				4DFB43721C70CABC00D5F725 /* ViewController.swift in Sources */,
+				4DFB43B01C70CF9000D5F725 /* FinishViewController.swift in Sources */,
+				4DFB43B61C70CFC700D5F725 /* AddViewController.swift in Sources */,
+				4D20F4DE1C8B292C006D52E9 /* ListTableViewController.swift in Sources */,
 				4DFB43701C70CABC00D5F725 /* AppDelegate.swift in Sources */,
+				4DFB43AC1C70CF6800D5F725 /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +546,7 @@
 				4DFB43961C70CABC00D5F725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DFB43971C70CABC00D5F725 /* Build configuration list for PBXNativeTarget "WordlisthonbanTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +555,7 @@
 				4DFB43991C70CABC00D5F725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DFB439A1C70CABC00D5F725 /* Build configuration list for PBXNativeTarget "WordlisthonbanUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +564,7 @@
 				4DFB439C1C70CABC00D5F725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
